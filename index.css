@@ -4,6 +4,10 @@
   background-color: #ff571b;
 }
 
+.text-ramen {
+  color: #ff571b;
+}
+
 section {
   display: none;
   height: 100vh;
