@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://risuney.github.io/ramen-timer/">
+    <meta property="og:title" content="RamenTimer">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="ラーメンたちを美味しく作るためのタイマーです">
+    <meta property="og:image" content="https://risuney.github.io/ramen-timer/static/logo-ogp.png">
+    <title>RamenTimer</title>
+    <link rel="icon" href="static/logo-mark.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/molecule-css@latest/css/molecule.min.css">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <section id="home" class="active bg-light">
+      <img src="static/logo.svg" class="home-logo">
+      <div id="set-time">
+        <div class="time left">
+          <input type="number" class="input round" id="set-min" min="0" value="3"><span>min</span>
+        </div>
+        <div class="time">
+          <input type="number" class="input round" id="set-sec" min="0" max="60" value="0"><span>s</span>
+        </div>
+      </div>
+      <button class="btn round text-light bg-ramen" id="start">START</button>
+    </section>
+    <section id="timer" class="bg-ramen">
+      <img src="static/logo-mark.svg" class="timer-logo">
+      <p id="remaining"><span id="r-min"></span><span>:</span><span id="r-sec"></span></p>
+      <p id="message">YOU CAN EAT!</p>
+      <button class="btn round bg-light" id="wait">CAN'T WAIT</button>
+      <button class="btn round bg-light" id="close">ONE MORE</button>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
