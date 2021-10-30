@@ -13,7 +13,7 @@
 ![](https://user-images.githubusercontent.com/77106106/123539936-3417ff00-d777-11eb-94bf-7221277b7862.png)
 ホーム画面です。
 初期状態は一般的な待ち時間`3:00`に設定してあります。
-0以上の整数を入力してください。
+自然数を入力してください。
 
 `START`をクリックすると
 ![](https://user-images.githubusercontent.com/77106106/123539951-44c87500-d777-11eb-8193-dc4f7e583811.png)
