@@ -17,7 +17,7 @@
 
 `START`をクリックすると
 ![](https://user-images.githubusercontent.com/77106106/123539951-44c87500-d777-11eb-8193-dc4f7e583811.png)
-このようにロゴが右回転し、残り時間が表示されます。
+このようにラーメンが右回転し、残り時間が表示されます。
 
 タイマーが終了するか、`CAN'T WAIT`をクリックすると
 ![](https://user-images.githubusercontent.com/77106106/123539963-5c9ff900-d777-11eb-824f-947417d40b29.png)
